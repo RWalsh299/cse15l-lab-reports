@@ -9,4 +9,4 @@ Dodgers **suck**, I'm *bored*, I want to **leave**
 
 **CSE15L Lab Reports**
 
--[Lab1](https://rwalsh299.github.io/cse15l-lab-reports/lab-report-week-2.html)
+-[Lab1](https://rwalsh299.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
