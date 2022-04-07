@@ -1,6 +1,6 @@
 *Introducing the best baseball player in the world*
 
-![Image](https://www.ocregister.com/wp-content/uploads/2021/10/LDN-L-ANGELS-0927-03-LO.jpg?w=1564)
+![Image](https://media.gq.com/photos/61d71dee2e18d46550f09c23/16:9/w_2560%2Cc_limit/shohei-ohtani-gq-sports-cover-february-2022-03-16x9.jpg)
 
 - 189 Strike outs
 - 100 RBI's
