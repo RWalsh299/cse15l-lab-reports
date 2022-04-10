@@ -19,7 +19,7 @@ Once you have the terminal opened type
 `ssh cs15lsp22XXX@ieng6@ucsd.edu`
 
 Replacing the XXX with your course specific account. Now when prompted enter your password that you reset for this specific course (if you have not done this yet look at the link for finding your course specific account) When prompted to continue connecting typre `yes`. After this you should see:
-![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/sshWorking.png) if you see this, in ther terminal window, than you have done it right.
+![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/sshWorking.png) if you see this, in the terminal window, than you have done it right.
 
   3.Trying some commands
 
@@ -31,7 +31,7 @@ in order to fully work in this envirnment, you should become familiar with some 
 
 here are some examples: ![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/commands.png)
 
-  4.Moving files via scp (from loacal to server)
+  4.Moving files via scp (from local to server)
 
 When preforming a scp do not be logged into the server via ssh, this should be done while logged out
 
@@ -39,7 +39,7 @@ To move a file from your local machine to the server. first open up a terminal o
  
  `scp WhereamI.java cs15lspXXX@ieng6.ucsd.edu:~/`
  
-Remeber that the XXX should be replaced with your unique student account. The `~/` signifies that you are saving this file to the home directory of your account on the server. You will be prompted to answer you password![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/newfiletransfer.png) Once you enter it, your terminal should print as mine did, with the file name and a 100% on the right hand side.
+Remeber that the XXX should be replaced with your unique student account. The `~/` signifies that you are saving this file to the home directory of your account on the server. You will be prompted to answer you password![fileTransfer](https://rwalsh299.github.io/cse15l-lab-reports/newfiletransfer.png) Once you enter it, your terminal should print as mine did, with the file name and a 100% on the right hand side.
 
 Once this is completed you can log back into the server via ssh and check if you file is there. 
 
