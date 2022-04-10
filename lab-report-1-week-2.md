@@ -1,12 +1,12 @@
 ## Lab Report 1 Week 2
 This will be a tutorial on how to install vs code, quickly connect to a ucsd server via using ssh, and then streamlining the process.
-1. Install VS Code
+  1.Install VS Code
 
 [VS Code Windows](https://code.visualstudio.com/)
  If you are on mac just click the down arrow that is to the left of the 'Download' button and click mac then download. Once it is downloaded click through the setup installer. Once it is installed you should open the app and be greated with a screen that looks like this:
  ![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/vsSetUp.png)
 
-  2. Remotly connecting via ssh
+  2.Remotly connecting via ssh
 
 First navigate over to the extension tab on the far left of VS Code (4 squares with one disconnected) search for 'Remote - ssh' download it, then 'Remote - ssh: Editing Configuration Files' download it. Now you are ready to connect via ssh to the ucsd server. Now you need to find your unique account here: [Course Account](https://sdacs.ucsd.edu/~icc/index.php).
 
@@ -21,7 +21,7 @@ Once you have the terminal opened type
 Replacing the XXX with your course specific account. Now when prompted enter your password that you reset for this specific course (if you have not done this yet look at the link for finding your course specific account) When prompted to continue connecting typre `yes`. After this you should see:
 ![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/sshWorking.png) if you see this, in ther terminal window, than you have done it right.
 
-3. Trying some commands
+  3.Trying some commands
 
 in order to fully work in this envirnment, you should become familiar with some basic commands `cd`, `ls`, `pwd`, and `mkdir`. 
 * `cd` is change directory, when you want to change the current folder you are working in type cd (then the file path of your desired directory)
@@ -31,7 +31,8 @@ in order to fully work in this envirnment, you should become familiar with some 
 
 here are some examples: ![vsSetUp](https://rwalsh299.github.io/cse15l-lab-reports/commands.png)
 
-4. Moving files via scp (from loacal to server)
+  4.Moving files via scp (from loacal to server)
+
 When preforming a scp do not be logged into the server via ssh, this should be done while logged out
 
 To move a file from your local machine to the server. first open up a terminal on your machine. Once you have navigated to the directory with your file you want to tranfer. You will be able to preform a scp. the standard syntax is: scp file server for example
@@ -42,7 +43,7 @@ Remeber that the XXX should be replaced with your unique student account. The `~
 
 Once this is completed you can log back into the server via ssh and check if you file is there. 
 
-5. Setting ssh auto-key
+  5.Setting ssh auto-key
 
 Now entering your password everytime you want to connect via ssh or sent a file via scp can be very time consuming. To fix this problem we can generate a pair of `ssh` keys with the set of keys. One public key which will be stored on the server, and one private key that will be stored on your machine. (DO NOT SHARE YOUR PRIVATE KEY). Now generating the keys is very easy.
 * Open up a terminal on your machine and type `ssh-keygen` it should say it is generating a key pair.
@@ -61,7 +62,7 @@ this will transfer your public key to the server. again make sure the filep path
 
 As you can now see I was not prompted to input my password and I was just logged in thanks to they keys. 
 
-6. Optimize Remote Running
+  6.Optimize Remote Running
 
 There are many ways to optimize this as we have already done it once before by creating the public and private keys. 
 
