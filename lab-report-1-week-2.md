@@ -75,3 +75,6 @@ this will print all the files in your pwd once you log in, remeber it must be qu
 
 This should copy the HelloWorld file to the otherFile, complie it, and run it all in one line!
 
+![ShowOptimization](https://rwalsh299.github.io/cse15l-lab-reports/makingitbetter.png)
+
+Now as you can see as I connected via ssh the "ls" command executes then prints the files in my pwd, In my next command line I compiled and ran a file called "WhereAmI". These are just a few examples on how to optimize your commands. 
