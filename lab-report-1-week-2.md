@@ -31,12 +31,33 @@ here is some examples: (insert screen shot)
 4. Moving files via scp (from loacal to server)
 When preforming a scp do not be logged into the server via ssh, this should be done while logged out
 
-To move a file from your local machine to the server. first open up a terminal on your machine. Once you have navigated to the directory with your file you want to tranfer. You will be able to preform a scp. the standard syntax is: scp file server for example `scp WhereamI.java cs15lspXXX@ieng6.ucsd.edu` Remeber that the XXX should be replaced with your unique student account. You will be prompted to answer you password (enter screen shot) Once you enter it, your terminal should print as mine did, with the file name and a 100% on the right hand side.
+To move a file from your local machine to the server. first open up a terminal on your machine. Once you have navigated to the directory with your file you want to tranfer. You will be able to preform a scp. the standard syntax is: scp file server for example `scp WhereamI.java cs15lspXXX@ieng6.ucsd.edu:~/` Remeber that the XXX should be replaced with your unique student account. The `~/` signifies that you are saving this file to the home directory of your account on the server. You will be prompted to answer you password (enter screen shot) Once you enter it, your terminal should print as mine did, with the file name and a 100% on the right hand side.
 
 Once this is completed you can log back into the server via ssh and check if you file is there. (insert screen shot)
 
 5. Setting ssh auto-key
 
+Now entering your password everytime you want to connect via ssh or sent a file via scp can be very time consuming. To fix this problem we can generate a pair of `ssh` keys with the set of keys. One public key which will be stored on the server, and one private key that will be stored on your machine. (DO NOT SHARE YOUR PRIVATE KEY). Now generating the keys is very easy.
+* Open up a terminal on your machine and type `ssh-keygen` it should say it is generating a key pair.
+* When prompted to enter the file in which to save the key, type `/Users/(Your User Name)/.ssh/id_rsa` where (Your User Name) is your personal username on your machine.
+* DO NOT ADD A PASSPHRASE JUST CLICK ENETER
+* You should be prompted saying where your identification and public key has been saved along with the keys randomart
+* Now ssh to the server, create a directory for the public key `mkdir .ssh`
+* log out of the server and scp your public key to your account
+`scp /Users/(UserName)/.ssh/id_rsa.pub cs15lsp22XXX@ieng6@ucsd.edu:~/.ssh/authorized_Keys`
+this will transfer your public key to the server. again make sure the filep path typed in is the file path on your personal machine and the XXX is your course specific account. 
 
+6. Optimize Remote Running
 
+There are many ways to optimize this as we have already done it once before by creating the public and private keys. 
+
+* you can enter one command to be completed after connecting via ssh `ssh cs15lsp22XXX@ieng6.ucsd.edu "ls"`
+
+this will print all the files in your pwd once you log in, remeber it must be quotes
+
+* you can type multiple commands in one line seperating them by semi colons 
+
+`cp HelloWorld.java otherFile.java; javac otherFile.java; java otherFile`
+
+This should copy the HelloWorld file to the otherFile, complie it, and run it all in one line!
 
