@@ -11,4 +11,4 @@ Dodgers **suck**, I'm *bored*, I want to **leave**
 
 -[Lab1](https://rwalsh299.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
--[Lab2](https://rwalsh299.github.io/markdown-parser/index.md)
+-[Lab2](https://rwalsh299.github.io/markdown-parser/index.html)
