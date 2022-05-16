@@ -30,7 +30,7 @@ private key stored on my machine:
 
 
 Pushing a change on the ieng server while logged in:
-![push](https://rwalsh299.github.io/cse15l-lab-reports/gitPushonserver.png)
+![push](https://rwalsh299.github.io/cse15l-lab-reports/gitPush%on%server.png)
 
 
 link for that commit:
