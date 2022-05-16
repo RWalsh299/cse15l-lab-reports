@@ -2,7 +2,7 @@
 # Stream lining ssh, Github from ieng6, copying directories
 
 
-1. Stream line ssh:
+1.Stream line ssh:
 
 ![sshConfig](https://rwalsh299.github.io/cse15l-lab-reports/cinfigSS.png)
 
@@ -20,7 +20,7 @@ Example with SCP:
 
 
 
-2. Setup Github Access from ieng6:
+2.Setup Github Access from ieng6:
 
 pub key on GitHub:
 ![pubKey](https://rwalsh299.github.io/cse15l-lab-reports/GHpubSSHKey.png)
@@ -37,7 +37,7 @@ link for that commit:
 [commit](https://github.com/RWalsh299/markdown-parser/commit/33e237e1064fb1eb628e1f880a705375c57489e9)
 
 
-3. Copying whole directories with scp -r
+3.Copying whole directories with scp -r
 
 Copying the whole repository to my school account:
 
