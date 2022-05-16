@@ -39,9 +39,18 @@ link for that commit:
 
 3. Copying whole directories with scp -r
 
+Copying the whole repository to my school account:
 
-I created a video which follows me copying the entire directory to the server, logging into the server, and running
-the test cases in one line. 
-[video](https://rwalsh299.github.io/cse15l-lab-reports/Recording#10.mp4)
+![scptoServer](https://rwalsh299.github.io/cse15l-lab-reports/scpToServer.png)
+
+logging to school account after scp (done in the same command line)
+
+![toserver](https://rwalsh299.github.io/cse15l-lab-reports/scpToLogin.png)
+
+running tests on server and showing that is passed
+
+![toTests](https://rwalsh299.github.io/cse15l-lab-reports/logingToTests.png)
+
+As you can see I only showed the part where I did it all in one line with multiple commands separated by ';'. i felt it would be redudant to show the process again.
 
 
