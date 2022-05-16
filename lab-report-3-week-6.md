@@ -3,7 +3,7 @@
 
 1. Stream line ssh:
 
-![sshConfig](https://github.com/RWalsh299/cse15l-lab-reports/cinfigSS.png)
+![sshConfig](https://rwalsh299.github.io/cse15l-lab-reports/cinfigSS.png)
 
 This is what my Config file looks like. I had to use terminal to re-cast the file from a .txt to no extension. When I created it using the notepad it was a .txt file which will cause the machine to not read it as a config file.
 
