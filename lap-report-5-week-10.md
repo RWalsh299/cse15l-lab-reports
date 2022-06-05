@@ -4,9 +4,14 @@ When finding the two tests I would use for this report I used the vimdiff comman
 `vimdiff markdown-parser/results.txt new-markdown-parser/markdown-parser/results.txt`
 
 link to test files where output differs:
+
+#Test 1:
+
 -[test1 201.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
 
 ![test1](https://rwalsh299.github.io/cse15l-lab-reports/test1_201.png)
+
+#Test 2:
 
 -[test2 342.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/342.md)
 
