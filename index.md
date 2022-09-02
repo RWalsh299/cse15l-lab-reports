@@ -5,7 +5,6 @@
 
 -[Resume](https://rwalsh299.github.io/cse15l-lab-reports/Ryan Walsh Resume.pdf)
 
-Dodgers **suck**, I'm *bored*, I want to **leave**
 
 **CSE15L Lab Reports**
 
